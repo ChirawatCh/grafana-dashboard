@@ -68,7 +68,3 @@ The `deployment_status` table includes the following key fields:
 1. Always update both the status and last_log fields to maintain accurate tracking
 2. Use the NOW() function for timestamp updates to ensure consistency
 3. Verify store existence before performing updates or deletions
-
-## Contributing
-
-Please ensure all SQL queries follow the established patterns above when contributing to this repository.
