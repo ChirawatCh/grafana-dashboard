@@ -6,6 +6,8 @@ This repository contains SQL queries for managing deployment status tracking acr
 
 The system maintains deployment status information including multiple steps, timestamps, and logging capabilities for each store in the deployment process.
 
+![Deployment Status Dashboard](screenshort/dashboard.png)
+
 ## SQL Operations
 
 ### Creating New Deployment Entry
@@ -66,3 +68,7 @@ The `deployment_status` table includes the following key fields:
 1. Always update both the status and last_log fields to maintain accurate tracking
 2. Use the NOW() function for timestamp updates to ensure consistency
 3. Verify store existence before performing updates or deletions
+
+## Contributing
+
+Please ensure all SQL queries follow the established patterns above when contributing to this repository.
